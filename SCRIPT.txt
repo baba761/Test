@@ -1,0 +1,47 @@
+INSERT INTO company.CreditProfileIntegration(CompanyId,CreditProfileId,IntegrationReference)Values(167,5,'x');
+UPDATE  company.CreditProfileIntegration
+SET IsActive=0 WHERE
+Id=16;
+
+--this 
+
+
+
+INSERT INTO creditprofile.CreditProfileIntegrationDetail(CreditProfileId,Name,Value)Values(19,'ServiceUrl','https://ennjpurbkqwepa7.m.pipedream.net/')
+
+INSERT INTO creditprofile.CreditProfileIntegrationDetail(CreditProfileId,Name,Value)Values(19,'ApiKey',';fV/+Z^k4x|WBs1,h<Zq,7KM~_L)^l');
+
+
+--INSERT INTO company.CreditProfileIntegration(CompanyId,CreditProfileId,IntegrationReference)Values(167,5,'x');
+UPDATE  company.CreditProfileIntegration
+SET IsActive=1 WHERE
+Id=19;
+
+INSERT INTO creditprofile.CreditProfileIntegrationDetail(CreditProfileId,Name,Value)Values(19,'ApiKeyName','secret')
+
+select * FROM creditprofile.CreditProfileIntegrationDetail
+
+Update creditprofile.CreditProfileIntegrationDetail
+SET Name='ApiKeyValue' Where
+Id=162
+
+
+
+
+
+
+
+
+
+
+
+
+                first_name = "D",
+                middle_name = "RILEY",
+                last_name = "JEFFREY",
+                dob = "08161952",
+                line1 = "54 TWIN LN",
+                line2 = "",
+                city = "WANTAGH",
+                state = "NY",
+                zipcode = 1179339110
