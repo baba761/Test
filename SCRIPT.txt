@@ -2,7 +2,7 @@ INSERT INTO company.CreditProfileIntegration(CompanyId,CreditProfileId,Integrati
 UPDATE  company.CreditProfileIntegration
 SET IsActive=0 WHERE
 Id=16;
-
+   
 --this 
 
 

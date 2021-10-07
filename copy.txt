@@ -1,6 +1,6 @@
      /// <summary>
         ///  the client Audit Record.
-        /// </summary>
+        /// </summary>  
         /// <param name="clientId">The integration reference.</param>
         /// <param name="creditors">The creditors.</param>
         /// <param name="settings">The settings.</param>
