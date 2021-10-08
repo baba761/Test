@@ -7,7 +7,7 @@
         /// <returns><see cref="Task"/>.</returns>
         Task SyncContractAuditRecord(string clientId, Guid reference, Guid companyReference);
 
-         /// <summary>
+         /// <summary>    
         /// add the client fees.
         /// </summary>
         /// <param name="clientId">The client identifier.</param>
