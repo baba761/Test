@@ -1,4 +1,4 @@
---this is check branch code 
+--this is main branch code 
 INSERT INTO company.CreditProfileIntegration(CompanyId,CreditProfileId,IntegrationReference)Values(167,5,'x');
 UPDATE  company.CreditProfileIntegration
 SET IsActive=0 WHERE
